@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Piet Mondrian - Composition with Red, Yellow and Blue </title>
+	<style>
+
+
+		table {
+			border-collapse: collapse;
+			border: hidden;
+		}
+
+		.picture1 {
+			margin: 0 auto;
+		}
+
+		.picture1 td {
+			padding: 0 40px;
+			border: 10px solid black;
+		}
+
+
+
+		.white {
+			background: white;
+		}
+
+		.yellow {
+			background: yellow;
+		}
+
+		.red {
+			background: red;
+		}
+
+		.grey {
+			background: darkgrey;
+		}
+
+		.blue {
+			background: blue;
+		}
+
+
+
+		.height1 {
+			height: 50px;
+		}
+
+		.height2,
+		.height3 {
+			height: 130px;
+		}
+
+		.height4,
+		.height5 {
+			height: 60px;
+		}
+
+		.height6,
+		.height7 {
+			height: 30px;
+		}
+
+	</style>
+</head>
+<body>
+	<table class="picture1">
+		<tr class="height1">
+			<td colspan="2" class="white"></td>
+			<td colspan="2"  class="white"></td>
+			<td colspan="2" class="yellow"></td>
+		</tr>
+		<tr class="height2">
+			<td class="white"></td>
+			<td colspan="3" rowspan="2"  class="red"></td>
+			<td colspan="2" class="yellow"></td>
+		</tr>
+		<tr class="height3">
+			<td rowspan="2" class="white"></td>
+			<td class="white"></td>
+			<td class="white"></td>
+		</tr>
+		<tr class="height4">
+			<td class="grey"></td>
+			<td class="grey"></td>
+			<td class="white"></td>
+			<td colspan="2" class="white"></td>
+		</tr>
+		<tr class="height5">
+			<td rowspan="3" class="yellow"></td>
+			<td class="grey"></td> 
+			<td class="grey"></td>
+			<td class="white"></td>
+			<td colspan="2" rowspan="2" class="blue"></td>
+		</tr>
+		<tr class="height6">
+			<td colspan="2" rowspan="2" class="white"></td>
+			<td class="grey"></td>
+		</tr>
+		<tr class="height7">
+			<td colspan="3" class="white"></td>
+		</tr>
+	</table>
+</body>
+</html>
